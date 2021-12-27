@@ -1,0 +1,169 @@
+
+body {
+    font-size: 16px;    
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+/* HEADER */
+
+.container {
+    margin-left: 3%;
+    margin-right: 3%;
+  
+}
+
+#header-nav {
+    background-color: #f6b319 !important;
+    border: 0;
+    width: 100%;
+}
+
+/* nav#header-nav {
+    width: 100% !important;
+} */
+#logo-img {
+    background: url('/images/restaurant-logo.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+   
+}
+
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color:#557c3e;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;  
+   
+}
+
+.navbar-brand a {
+    text-decoration: none;
+}
+/* KOSHER CERT */
+.navbar-brand p {
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+/* STAR-K  */
+.navbar-brand p span {
+    vertical-align: middle;
+}
+
+/* button menu */
+div.navbar-header {
+    width: 100%
+
+}
+.navbar-toggler {
+   background-color: rgb(206, 208, 209);
+   border: solid 1px #61122f !important;
+  
+         
+}
+
+
+.navbar-collapse {
+    margin-top: 10%;
+    background-color: rgb(253, 139, 139);
+    text-align: center;
+    margin-bottom: -10%;
+    
+    
+}
+
+.navbar-header button.navbar-toggler {
+    clear: both;
+}
+
+div.container-fluid{
+    padding: 0;
+}
+
+h1.display-3 {
+    padding-top: 8%;
+}
+
+div.container-2 {
+ 
+    background-color: rgb(253, 139, 139);
+    margin-left: 8%;
+    border-radius: 20px;
+    margin-top: 3%;
+}
+ul.navbar-nav {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding:0;
+    
+
+}
+
+.nav-item {
+    border-bottom: dotted 1px blanchedalmond;
+}
+
+
+@media (max-width: 767px ) {/*any screens with a width lower then 768px this styles will kick in*/
+   
+    div.container-2 {
+        margin-left: 13%;
+        width: 90%;
+
+    }
+
+    .navbar-collapse {
+        margin-top: 10%;
+
+        
+    }
+   
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    div.container-2 {
+
+        margin-left:9%;
+        width: 80%;
+
+    }
+    .navbar-collapse {
+        margin-top: 10%;
+   
+    }
+  
+  }
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    div.container-2 {
+        margin-left:10%;
+        width: 80%;
+        
+
+    }
+    .navbar-collapse {
+        margin-top: 10%;
+       
+       
+        
+        
+    }
+   
+  }
+  
+  
+  
+  
